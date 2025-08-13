@@ -20,7 +20,7 @@ In *On Tour*, players fill a map with numbers and aim to form the **longest incr
 
 ---
 
-## 📂 Input Format
+## Input Format
 The program reads from `input.txt`:
 
 1. **First line**: Integer `n` – number of spaces.
@@ -39,14 +39,14 @@ Meaning:
 
 ---
 
-## 📤 Output Format
+## Output Format
 The program writes to `output.txt`:
 1. **Line 1** → Maximum score (integer).
 2. **Line 2** → Space IDs of the maximum-scoring tour in order.
 
 ---
 
-## 🛠 Approach
+## Approach
 - Uses **dynamic programming** with memoization.
 - **State** → Current space & last visited value.
 - **Transition** → Move to connected spaces with higher values, accumulate points.
@@ -54,7 +54,7 @@ The program writes to `output.txt`:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 
 ---
