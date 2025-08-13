@@ -61,6 +61,6 @@ java -cp src OnTourScorer
 
 ---
 
-## **License**
+**## **License****
 This project was completed as an academic assignment. Redistribution or modification should respect the course’s academic integrity policy.
 ./on_tour
