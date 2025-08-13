@@ -1,4 +1,5 @@
 # On-Tour-Board-Game
+
 The user's goal is to go through the route that allows them to achieve the biggest score.
 
 This project implements a **dynamic programming** algorithm to solve a scoring problem from the board game *On Tour*.  
@@ -17,7 +18,6 @@ In *On Tour*, players fill a map with numbers and aim to form the **longest incr
 - No wildcards or equal-valued adjacent spaces (restricted version).
 - Some spaces may be unusable and are omitted from the board.
 
-
 ---
 
 ## Input Format
@@ -25,13 +25,13 @@ The program reads from `input.txt`:
 
 1. **First line**: Integer `n` – number of spaces.
 2. **Next n lines**:  
-
-- `value` → Number assigned to the space.
-- `points` → Point value (1 or 2).
-- `neighbors_count` → Number of connected spaces.
-- `neighbor_i` → IDs of neighboring spaces (1-indexed).
+   - `value` → Number assigned to the space.
+   - `points` → Point value (1 or 2).
+   - `neighbors_count` → Number of connected spaces.
+   - `neighbor_i` → IDs of neighboring spaces (1-indexed).
 
 **Example:**
+
 Meaning:
 - Value = 21  
 - Points = 2 (circled)  
@@ -54,16 +54,12 @@ The program writes to `output.txt`:
 
 ---
 
+## How to Run
+
 ### Java
 ```bash
 javac src/OnTourScorer.java
 java -cp src OnTourScorer
 
----
-
-## License
-
+License
 This project was completed as an academic assignment. Redistribution or modification should respect the course’s academic integrity policy.
-
-This project was completed as an academic assignment. Redistribution or modification should respect the course’s academic integrity policy.
-./on_tour
