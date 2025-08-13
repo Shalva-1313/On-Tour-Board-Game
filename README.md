@@ -55,7 +55,7 @@ The program writes to `output.txt`:
 ---
 
 ### Java
-```bash
+'''bash
 javac src/OnTourScorer.java
 java -cp src OnTourScorer
 
