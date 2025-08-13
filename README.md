@@ -59,10 +59,8 @@ The program writes to `output.txt`:
 javac src/OnTourScorer.java
 java -cp src OnTourScorer
 
-### C++
-g++ -std=c++17 -O2 -o on_tour src/main.cpp
+---
 
-## License
+## **License**
 This project was completed as an academic assignment. Redistribution or modification should respect the course’s academic integrity policy.
 ./on_tour
-****
