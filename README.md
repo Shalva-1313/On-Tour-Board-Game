@@ -54,12 +54,10 @@ The program writes to `output.txt`:
 
 ---
 
-## How to Run
-
-### Java
+## Java
 ```bash
 javac src/OnTourScorer.java
 java -cp src OnTourScorer
 
-License
+## License
 This project was completed as an academic assignment. Redistribution or modification should respect the course’s academic integrity policy.
