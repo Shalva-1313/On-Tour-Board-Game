@@ -54,13 +54,6 @@ The program writes to `output.txt`:
 
 ---
 
-## Project Structure
-
-
----
-
-## How to Run
-
 ### Java
 ```bash
 javac src/OnTourScorer.java
